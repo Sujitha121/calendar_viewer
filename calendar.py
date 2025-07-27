@@ -16,6 +16,8 @@ print(f"\nFull Calendar for {year}:\n")
     print(calendar.calendar(year, 2, 1, 6))
 print("\n======== PYTHON CALENDAR VIEWER ========")
         print("1. View specific month")
+        print("2. View entire year")
+        print("3. Exit")
 
 
 
