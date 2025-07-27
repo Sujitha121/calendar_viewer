@@ -12,4 +12,8 @@ else:
 def display_year_calendar():
     print("View Full Year Calendar ")
     year = int(input("Enter year (e.g., 2025): "))
+print(f"\nFull Calendar for {year}:\n")
+    print(calendar.calendar(year, 2, 1, 6))
+
+
 
