@@ -18,6 +18,10 @@ print("\n======== PYTHON CALENDAR VIEWER ========")
         print("1. View specific month")
         print("2. View entire year")
         print("3. Exit")
+        choice = input("Choose option (1/2/3): ")
+
+        if choice == '1':
+            display_month_calendar()
 
 
 
