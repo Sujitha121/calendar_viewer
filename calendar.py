@@ -14,7 +14,8 @@ def display_year_calendar():
     year = int(input("Enter year (e.g., 2025): "))
 print(f"\nFull Calendar for {year}:\n")
     print(calendar.calendar(year, 2, 1, 6))
-
+print("\n======== PYTHON CALENDAR VIEWER ========")
+        print("1. View specific month")
 
 
 
