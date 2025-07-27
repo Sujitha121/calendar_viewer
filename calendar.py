@@ -28,6 +28,9 @@ print("\n======== PYTHON CALENDAR VIEWER ========")
             print("Exiting... Thank you!")
             break
         else:
+print("Invalid input. Try again.")
 
+if __name__ == "__main__":
+    main()
 
 
