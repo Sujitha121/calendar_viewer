@@ -25,6 +25,9 @@ print("\n======== PYTHON CALENDAR VIEWER ========")
             elif choice == '2':
             display_year_calendar()
         elif choice == '3':
+            print("Exiting... Thank you!")
+            break
+        else:
 
 
 
