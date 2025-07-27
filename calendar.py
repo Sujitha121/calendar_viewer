@@ -1,4 +1,10 @@
 import calendar
 def display_month_calendar():
     print(" View Monthly Calendar ")
+year = int(input("Enter year (e.g., 2025): "))
+    month = int(input("Enter month (1-12): "))
+    
+    if 1 <= month <= 12:
+        print(f"\nCalendar for {calendar.month_name[month]}, {year}:\n")
+        print(calendar.month(year, month))
 
