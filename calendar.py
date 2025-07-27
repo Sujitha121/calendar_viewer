@@ -22,6 +22,9 @@ print("\n======== PYTHON CALENDAR VIEWER ========")
 
         if choice == '1':
             display_month_calendar()
+            elif choice == '2':
+            display_year_calendar()
+        elif choice == '3':
 
 
 
