@@ -9,4 +9,7 @@ year = int(input("Enter year (e.g., 2025): "))
         print(calendar.month(year, month))
 else:
         print("Invalid month entered. Please try again.")
+def display_year_calendar():
+    print("View Full Year Calendar ")
+    year = int(input("Enter year (e.g., 2025): "))
 
