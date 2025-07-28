@@ -10,3 +10,6 @@ int arr[n];
     scanf("%d", &arr[i]);
         sum += arr[i];
     }
+    printf("Sum of the array elements = %d\n", sum);
+    return 0;
+}
